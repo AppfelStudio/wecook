@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ogc-Jb-r6s">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,19 +10,77 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Cookbooks-->
+        <scene sceneID="Ojo-4O-Ey4">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WeCook" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="VM0-B2-d9T" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iHf-gm-Jej">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="pM6-NW-Hc6"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Cookbooks" image="cookbook" id="CZr-3y-t56"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I3E-qi-hHd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="36" y="81"/>
+        </scene>
+        <!--User-->
+        <scene sceneID="lf9-Nt-cBf">
+            <objects>
+                <viewController id="jeJ-me-hIg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YyE-by-ApN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="cHF-8b-04g"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="User" image="user" id="XHv-4E-BE6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mbi-16-GqE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-746" y="487"/>
+        </scene>
+        <!--Recipes-->
+        <scene sceneID="Bkq-5T-fRi">
+            <objects>
+                <viewController title="Recipes" id="sTY-nF-EVm" customClass="HomeTabViewController" customModule="WeCook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gbm-30-gB3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ahL-J2-H9X"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Recipes" image="recipes" id="36M-3r-Dbn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lx6-TB-Yhp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36" y="-585"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="fXy-xh-AVf">
+            <objects>
+                <tabBarController id="ogc-Jb-r6s" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9Nx-2b-zyQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="sTY-nF-EVm" kind="relationship" relationship="viewControllers" id="H8q-Yj-dkS"/>
+                        <segue destination="VM0-B2-d9T" kind="relationship" relationship="viewControllers" id="QV5-A0-r5U"/>
+                        <segue destination="jeJ-me-hIg" kind="relationship" relationship="viewControllers" id="drR-wk-UaM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bJQ-uz-yCg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-745" y="-251"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cookbook" width="32" height="32"/>
+        <image name="recipes" width="32" height="32"/>
+        <image name="user" width="32" height="32"/>
+    </resources>
 </document>
