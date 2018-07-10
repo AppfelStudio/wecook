@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF94A7C115589338D1D2FA6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF94AEB8EA84AF0A3779540E /* Assets.xcassets */; };
+		EF94A905C13BE8DC8E16EA36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94A4249330DE0D45F90769 /* AppDelegate.swift */; };
+		EF94AA7BA298216FBE16D397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF94AB62D17831AA70D802A4 /* LaunchScreen.storyboard */; };
+		EF94AD6D3CF776B741E72584 /* WeCookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94AEB159866E8D6417FBA7 /* WeCookTests.swift */; };
+		EF94AF04EC857E1725F4E3E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF94A7F83DA3C63AD48ECF5C /* Main.storyboard */; };
+		EF94AF189449610A73AC5DE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94AD9B43DFF86C4BF9A7AE /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF94A859BC71C9305CD7AABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF94AAEE13C747B5785EC86B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF94A8DA1BBEA638F7620DAC;
+			remoteInfo = WeCook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF94A00D6825C787C4496154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		EF94A1A60949E4766010E01A /* WeCook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeCook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF94A4249330DE0D45F90769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF94A5A984F4E4D5E2F1CA17 /* WeCookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeCookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF94A67759085FE0BD7B66EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF94A73ECAF1634C1B79A796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		EF94AD9B43DFF86C4BF9A7AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF94AEB159866E8D6417FBA7 /* WeCookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeCookTests.swift; sourceTree = "<group>"; };
+		EF94AEB8EA84AF0A3779540E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF94AFA3AA10A01A8165EAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF94A90C3B0EE6BB871C3ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF94AB1745201E22865ED385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF94A64B7D45D214EEA180EA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EF94A8159D5490C819F1A215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF94A1A60949E4766010E01A /* WeCook.app */,
+				EF94A5A984F4E4D5E2F1CA17 /* WeCookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF94A8464FD94112445A4043 /* WeCookTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF94A73ECAF1634C1B79A796 /* Info.plist */,
+				EF94AEB159866E8D6417FBA7 /* WeCookTests.swift */,
+			);
+			path = WeCookTests;
+			sourceTree = "<group>";
+		};
+		EF94AC2FDCACCD5BF4ED9E9F = {
+			isa = PBXGroup;
+			children = (
+				EF94A8159D5490C819F1A215 /* Products */,
+				EF94AEC70B5B69AB310C9A62 /* WeCook */,
+				EF94A8464FD94112445A4043 /* WeCookTests */,
+			);
+			sourceTree = "<group>";
+		};
+		EF94AEC70B5B69AB310C9A62 /* WeCook */ = {
+			isa = PBXGroup;
+			children = (
+				EF94A00D6825C787C4496154 /* Info.plist */,
+				EF94AEB8EA84AF0A3779540E /* Assets.xcassets */,
+				EF94AB62D17831AA70D802A4 /* LaunchScreen.storyboard */,
+				EF94A4249330DE0D45F90769 /* AppDelegate.swift */,
+				EF94A7F83DA3C63AD48ECF5C /* Main.storyboard */,
+				EF94AD9B43DFF86C4BF9A7AE /* ViewController.swift */,
+				EF94A64B7D45D214EEA180EA /* Home */,
+			);
+			path = WeCook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF94A7DE0106E06EC234304A /* WeCookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF94A46F6955D80EEFECD9FD /* Build configuration list for PBXNativeTarget "WeCookTests" */;
+			buildPhases = (
+				EF94AA1CD05C6AEC22D97E62 /* Sources */,
+				EF94A90C3B0EE6BB871C3ED1 /* Frameworks */,
+				EF94A855DE78DD6F4D3FD772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF94A553609FBF2CDD47FF2C /* PBXTargetDependency */,
+			);
+			name = WeCookTests;
+			productName = WeCookTests;
+			productReference = EF94A5A984F4E4D5E2F1CA17 /* WeCookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF94A8DA1BBEA638F7620DAC /* WeCook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF94AD70A8A5A73E697CB43C /* Build configuration list for PBXNativeTarget "WeCook" */;
+			buildPhases = (
+				EF94A086AEFD4EC742DECCB7 /* Sources */,
+				EF94AB1745201E22865ED385 /* Frameworks */,
+				EF94A3AA89958D946A47099F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeCook;
+			productName = WeCook;
+			productReference = EF94A1A60949E4766010E01A /* WeCook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF94AAEE13C747B5785EC86B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = AppfelStudio;
+			};
+			buildConfigurationList = EF94A4A7DC5BD213CFF83A5E /* Build configuration list for PBXProject "WeCook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EF94AC2FDCACCD5BF4ED9E9F;
+			productRefGroup = EF94A8159D5490C819F1A215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF94A8DA1BBEA638F7620DAC /* WeCook */,
+				EF94A7DE0106E06EC234304A /* WeCookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF94A3AA89958D946A47099F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF94A7C115589338D1D2FA6E /* Assets.xcassets in Resources */,
+				EF94AA7BA298216FBE16D397 /* LaunchScreen.storyboard in Resources */,
+				EF94AF04EC857E1725F4E3E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF94A855DE78DD6F4D3FD772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF94A086AEFD4EC742DECCB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF94A905C13BE8DC8E16EA36 /* AppDelegate.swift in Sources */,
+				EF94AF189449610A73AC5DE1 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF94AA1CD05C6AEC22D97E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF94AD6D3CF776B741E72584 /* WeCookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF94A553609FBF2CDD47FF2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF94A8DA1BBEA638F7620DAC /* WeCook */;
+			targetProxy = EF94A859BC71C9305CD7AABA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF94A7F83DA3C63AD48ECF5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF94A67759085FE0BD7B66EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF94AB62D17831AA70D802A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF94AFA3AA10A01A8165EAC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF94A054C15FA8632C090B40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeCook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apffelstudio.WeCook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF94A13CE98D8786B2AE4ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WeCook.app/WeCook";
+				INFOPLIST_FILE = WeCookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apffelstudio.WeCookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EF94A16D8AC1C189F1F493CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeCook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apffelstudio.WeCook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF94A37009FA378BBB4FEE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF94AB56D39FE115CAF66FF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WeCook.app/WeCook";
+				INFOPLIST_FILE = WeCookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apffelstudio.WeCookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		EF94ABED0BEFBC225371AA5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF94A46F6955D80EEFECD9FD /* Build configuration list for PBXNativeTarget "WeCookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF94A13CE98D8786B2AE4ECF /* Debug */,
+				EF94AB56D39FE115CAF66FF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF94A4A7DC5BD213CFF83A5E /* Build configuration list for PBXProject "WeCook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF94ABED0BEFBC225371AA5E /* Debug */,
+				EF94A37009FA378BBB4FEE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF94AD70A8A5A73E697CB43C /* Build configuration list for PBXNativeTarget "WeCook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF94A054C15FA8632C090B40 /* Debug */,
+				EF94A16D8AC1C189F1F493CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF94AAEE13C747B5785EC86B /* Project object */;
+}
