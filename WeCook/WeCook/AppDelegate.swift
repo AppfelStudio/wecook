@@ -15,8 +15,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
-    window?.tintColor = .themePrimary
+    setupNavigationBarAppearance()
+    setupTabBarAppearance()
 
     return true
+  }
+
+  private func setupTabBarAppearance() {
+    UITabBar.appearance().tintColor = .themePrimary
+    UITabBar.appearance().unselectedItemTintColor = .themePrimaryDisabled
+  }
+
+  private func setupNavigationBarAppearance() {
+    let globalTitleAttributes = [NSAttributedStringKey.foregroundColor: UIColor.themePrimary]
+    let navigationBarAppearance = UINavigationBar.appearance()
+    navigationBarAppearance.tintColor = .themePrimary
+    navigationBarAppearance.titleTextAttributes = globalTitleAttributes
+    navigationBarAppearance.largeTitleTextAttributes = globalTitleAttributes
   }
 }

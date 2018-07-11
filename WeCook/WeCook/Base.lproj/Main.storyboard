@@ -52,7 +52,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ahL-J2-H9X"/>
                     </view>
-                    <navigationItem key="navigationItem" id="tPv-Ou-0Gz">
+                    <navigationItem key="navigationItem" title="Recipes" id="tPv-Ou-0Gz">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Uhk-Ym-hdi"/>
                     </navigationItem>
                 </viewController>

@@ -10,4 +10,5 @@ import UIKit
 
 extension UIColor {
   static var themePrimary: UIColor = .red
+  static var themePrimaryDisabled: UIColor = .lightGray
 }
