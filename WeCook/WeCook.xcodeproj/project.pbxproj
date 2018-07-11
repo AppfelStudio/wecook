@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF94A0A0282B1533D4785F25 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94AB0F4511656849316867 /* RecipesViewModel.swift */; };
 		EF94A1DB3863926B78AEA126 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94AAE9178E9D439FF944A6 /* HomeTabViewController.swift */; };
 		EF94A73D9039736E58FF1542 /* HomeTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94AE0F74E2809F842F18CA /* HomeTabViewModel.swift */; };
 		EF94A7C115589338D1D2FA6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF94AEB8EA84AF0A3779540E /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		EF94AA7BA298216FBE16D397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF94AB62D17831AA70D802A4 /* LaunchScreen.storyboard */; };
 		EF94AD6D3CF776B741E72584 /* WeCookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94AEB159866E8D6417FBA7 /* WeCookTests.swift */; };
 		EF94AD9780B425A7FA0630B0 /* Color+WeCook.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94A9E8A4AB71B2E854579A /* Color+WeCook.swift */; };
+		EF94AEFEBD129135BAC1D8B9 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94AF50B3F1A1EFE1603946 /* RecipesViewController.swift */; };
 		EF94AF04EC857E1725F4E3E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF94A7F83DA3C63AD48ECF5C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -36,9 +38,11 @@
 		EF94A73ECAF1634C1B79A796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		EF94A9E8A4AB71B2E854579A /* Color+WeCook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+WeCook.swift"; sourceTree = "<group>"; };
 		EF94AAE9178E9D439FF944A6 /* HomeTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
+		EF94AB0F4511656849316867 /* RecipesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
 		EF94AE0F74E2809F842F18CA /* HomeTabViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabViewModel.swift; sourceTree = "<group>"; };
 		EF94AEB159866E8D6417FBA7 /* WeCookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeCookTests.swift; sourceTree = "<group>"; };
 		EF94AEB8EA84AF0A3779540E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF94AF50B3F1A1EFE1603946 /* RecipesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
 		EF94AFA3AA10A01A8165EAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF94A20705E876EACC330C1A /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				EF94AF50B3F1A1EFE1603946 /* RecipesViewController.swift */,
+				EF94AB0F4511656849316867 /* RecipesViewModel.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
 		EF94A64B7D45D214EEA180EA /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +127,7 @@
 				EF94A7F83DA3C63AD48ECF5C /* Main.storyboard */,
 				EF94A64B7D45D214EEA180EA /* Home */,
 				EF94A81BDDA28DB53DAA0EB3 /* Appearance */,
+				EF94A20705E876EACC330C1A /* Recipes */,
 			);
 			path = WeCook;
 			sourceTree = "<group>";
@@ -211,6 +225,8 @@
 				EF94A1DB3863926B78AEA126 /* HomeTabViewController.swift in Sources */,
 				EF94A73D9039736E58FF1542 /* HomeTabViewModel.swift in Sources */,
 				EF94AD9780B425A7FA0630B0 /* Color+WeCook.swift in Sources */,
+				EF94AEFEBD129135BAC1D8B9 /* RecipesViewController.swift in Sources */,
+				EF94A0A0282B1533D4785F25 /* RecipesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
