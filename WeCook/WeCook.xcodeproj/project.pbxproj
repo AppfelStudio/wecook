@@ -13,6 +13,7 @@
 		EF94A905C13BE8DC8E16EA36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94A4249330DE0D45F90769 /* AppDelegate.swift */; };
 		EF94AA7BA298216FBE16D397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF94AB62D17831AA70D802A4 /* LaunchScreen.storyboard */; };
 		EF94AD6D3CF776B741E72584 /* WeCookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94AEB159866E8D6417FBA7 /* WeCookTests.swift */; };
+		EF94AD9780B425A7FA0630B0 /* Color+WeCook.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94A9E8A4AB71B2E854579A /* Color+WeCook.swift */; };
 		EF94AF04EC857E1725F4E3E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF94A7F83DA3C63AD48ECF5C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		EF94A5A984F4E4D5E2F1CA17 /* WeCookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeCookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF94A67759085FE0BD7B66EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF94A73ECAF1634C1B79A796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		EF94A9E8A4AB71B2E854579A /* Color+WeCook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+WeCook.swift"; sourceTree = "<group>"; };
 		EF94AAE9178E9D439FF944A6 /* HomeTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
 		EF94AE0F74E2809F842F18CA /* HomeTabViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabViewModel.swift; sourceTree = "<group>"; };
 		EF94AEB159866E8D6417FBA7 /* WeCookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeCookTests.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		EF94A81BDDA28DB53DAA0EB3 /* Appearance */ = {
+			isa = PBXGroup;
+			children = (
+				EF94A9E8A4AB71B2E854579A /* Color+WeCook.swift */,
+			);
+			path = Appearance;
+			sourceTree = "<group>";
+		};
 		EF94A8464FD94112445A4043 /* WeCookTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 				EF94A4249330DE0D45F90769 /* AppDelegate.swift */,
 				EF94A7F83DA3C63AD48ECF5C /* Main.storyboard */,
 				EF94A64B7D45D214EEA180EA /* Home */,
+				EF94A81BDDA28DB53DAA0EB3 /* Appearance */,
 			);
 			path = WeCook;
 			sourceTree = "<group>";
@@ -199,6 +210,7 @@
 				EF94A905C13BE8DC8E16EA36 /* AppDelegate.swift in Sources */,
 				EF94A1DB3863926B78AEA126 /* HomeTabViewController.swift in Sources */,
 				EF94A73D9039736E58FF1542 /* HomeTabViewModel.swift in Sources */,
+				EF94AD9780B425A7FA0630B0 /* Color+WeCook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

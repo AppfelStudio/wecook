@@ -45,7 +45,7 @@
         <!--Recipes-->
         <scene sceneID="Bkq-5T-fRi">
             <objects>
-                <viewController title="Recipes" id="sTY-nF-EVm" customClass="HomeTabViewController" customModule="WeCook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Recipes" id="sTY-nF-EVm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gbm-30-gB3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,10 +58,10 @@
             </objects>
             <point key="canvasLocation" x="36" y="-585"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Home Tab View Controller-->
         <scene sceneID="fXy-xh-AVf">
             <objects>
-                <tabBarController id="ogc-Jb-r6s" sceneMemberID="viewController">
+                <tabBarController id="ogc-Jb-r6s" customClass="HomeTabViewController" customModule="WeCook" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9Nx-2b-zyQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
