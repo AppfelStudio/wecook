@@ -13,6 +13,6 @@ class RecipeCell: UICollectionViewCell {
 
   var title: String? {
     get { return titleLabel.text }
-    set { titleLabel.text = title }
+    set { titleLabel.text = newValue }
   }
 }

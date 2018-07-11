@@ -28,7 +28,7 @@ extension RecipesViewController: UICollectionViewDataSource {
     guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "recipe cell", for: indexPath) as? RecipeCell else {
       fatalError("Cells should be instances of RecipeCell")
     }
-    cell.title = "Tomato soup"
+    cell.title = "Tomato soup!!!"
     return cell
   }
 }
