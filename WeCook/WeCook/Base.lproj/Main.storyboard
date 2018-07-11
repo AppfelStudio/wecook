@@ -45,13 +45,13 @@
         <!--Recipes-->
         <scene sceneID="Bkq-5T-fRi">
             <objects>
-                <viewController title="Recipes" id="sTY-nF-EVm" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="UIViewController-sTY-nF-EVm" title="Recipes" id="sTY-nF-EVm" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gbm-30-gB3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6sw-E6-xZk">
-                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <connections>
                                     <segue destination="v7g-AT-XUf" kind="embed" id="q3r-58-gI8"/>
                                 </connections>
@@ -84,7 +84,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="uyW-IQ-ubB" kind="relationship" relationship="viewControllers" id="H8q-Yj-dkS"/>
+                        <segue destination="712-f6-QaB" kind="relationship" relationship="viewControllers" id="H8q-Yj-dkS"/>
                         <segue destination="VM0-B2-d9T" kind="relationship" relationship="viewControllers" id="QV5-A0-r5U"/>
                         <segue destination="jeJ-me-hIg" kind="relationship" relationship="viewControllers" id="drR-wk-UaM"/>
                     </connections>
@@ -93,35 +93,16 @@
             </objects>
             <point key="canvasLocation" x="-745" y="-251"/>
         </scene>
-        <!--Recipes-->
-        <scene sceneID="Xoz-zZ-tdQ">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uyW-IQ-ubB" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Recipes" image="recipes" id="36M-3r-Dbn"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ffh-Vz-e3r">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="sTY-nF-EVm" kind="relationship" relationship="rootViewController" id="eqe-Xp-b1S"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RNr-di-Gmb" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="36" y="-585.1574212893554"/>
-        </scene>
         <!--Recipes View Controller-->
         <scene sceneID="c1n-4e-uJO">
             <objects>
                 <viewController id="v7g-AT-XUf" customClass="RecipesViewController" customModule="WeCook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pac-sU-dCP">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jhh-hS-pPx">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Zz5-VA-Gd5">
                                     <size key="itemSize" width="375" height="50"/>
@@ -145,10 +126,19 @@
             </objects>
             <point key="canvasLocation" x="1754.4000000000001" y="-585.60719640179911"/>
         </scene>
+        <!--Recipes-->
+        <scene sceneID="qLo-9H-SSv">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Recipes" id="712-f6-QaB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Hfn-FY-ihK"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K3P-0y-uD9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36" y="-585.1574212893554"/>
+        </scene>
     </scenes>
     <resources>
         <image name="cookbook" width="32" height="32"/>
-        <image name="recipes" width="32" height="32"/>
         <image name="user" width="32" height="32"/>
     </resources>
 </document>

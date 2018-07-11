@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE4F1D8A20F589E300DE039B /* Recipes.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4F1D8920F589E300DE039B /* Recipes.storyboard */; };
 		EF94A0A0282B1533D4785F25 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94AB0F4511656849316867 /* RecipesViewModel.swift */; };
 		EF94A1DB3863926B78AEA126 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94AAE9178E9D439FF944A6 /* HomeTabViewController.swift */; };
 		EF94A73D9039736E58FF1542 /* HomeTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF94AE0F74E2809F842F18CA /* HomeTabViewModel.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE4F1D8920F589E300DE039B /* Recipes.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Recipes.storyboard; sourceTree = "<group>"; };
 		EF94A00D6825C787C4496154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		EF94A1A60949E4766010E01A /* WeCook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeCook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF94A4249330DE0D45F90769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		EF94A20705E876EACC330C1A /* Recipes */ = {
 			isa = PBXGroup;
 			children = (
+				AE4F1D8920F589E300DE039B /* Recipes.storyboard */,
 				EF94AF50B3F1A1EFE1603946 /* RecipesViewController.swift */,
 				EF94AB0F4511656849316867 /* RecipesViewModel.swift */,
 			);
@@ -201,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE4F1D8A20F589E300DE039B /* Recipes.storyboard in Resources */,
 				EF94A7C115589338D1D2FA6E /* Assets.xcassets in Resources */,
 				EF94AA7BA298216FBE16D397 /* LaunchScreen.storyboard in Resources */,
 				EF94AF04EC857E1725F4E3E0 /* Main.storyboard in Resources */,
@@ -356,8 +360,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -446,6 +449,7 @@
 				EF94AB56D39FE115CAF66FF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF94A4A7DC5BD213CFF83A5E /* Build configuration list for PBXProject "WeCook" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +467,7 @@
 				EF94A16D8AC1C189F1F493CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
