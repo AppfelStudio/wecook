@@ -52,11 +52,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ahL-J2-H9X"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Recipes" image="recipes" id="36M-3r-Dbn"/>
+                    <navigationItem key="navigationItem" id="tPv-Ou-0Gz">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Uhk-Ym-hdi"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lx6-TB-Yhp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="36" y="-585"/>
+            <point key="canvasLocation" x="975.20000000000005" y="-585.1574212893554"/>
         </scene>
         <!--Home Tab View Controller-->
         <scene sceneID="fXy-xh-AVf">
@@ -68,7 +70,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="sTY-nF-EVm" kind="relationship" relationship="viewControllers" id="H8q-Yj-dkS"/>
+                        <segue destination="uyW-IQ-ubB" kind="relationship" relationship="viewControllers" id="H8q-Yj-dkS"/>
                         <segue destination="VM0-B2-d9T" kind="relationship" relationship="viewControllers" id="QV5-A0-r5U"/>
                         <segue destination="jeJ-me-hIg" kind="relationship" relationship="viewControllers" id="drR-wk-UaM"/>
                     </connections>
@@ -76,6 +78,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bJQ-uz-yCg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-745" y="-251"/>
+        </scene>
+        <!--Recipes-->
+        <scene sceneID="Xoz-zZ-tdQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uyW-IQ-ubB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Recipes" image="recipes" id="36M-3r-Dbn"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ffh-Vz-e3r">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="sTY-nF-EVm" kind="relationship" relationship="rootViewController" id="eqe-Xp-b1S"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RNr-di-Gmb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36" y="-585.1574212893554"/>
         </scene>
     </scenes>
     <resources>
